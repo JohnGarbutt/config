@@ -344,7 +344,7 @@
 
 - job-template:
     name: '{pipeline}-tempest-dsvm-xenserver{branch-designator}'
-    node: '{node}'
+    node: 'devstack-xenserver'
 
     wrappers:
       - timeout:
